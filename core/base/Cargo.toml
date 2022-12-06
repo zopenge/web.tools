@@ -1,5 +1,5 @@
 [package]
-name = "core-libs"
+name = "base"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,4 +9,4 @@ edition = "2021"
 
 [lib]
 name = "base"
-crate_type = ["cdylib"]
+crate_type = ["dylib"]

@@ -1,3 +1,9 @@
+use shared_library::*;
+
+shared_library!(base,
+    pub fn hello()
+);
+
 // use futures::future::join_all;
 // use scraper::{Html, Selector};
 // use std::env;
